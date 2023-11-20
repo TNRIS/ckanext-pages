@@ -17,7 +17,6 @@ main-css:
   contents:
     - vendor/datepicker/css/datepicker.css
     - css/ckedit.css
-    - vendor/ckeditor/skins/moono-lisa/editor.css
 
 medium-js:
   filters: rjsmin
