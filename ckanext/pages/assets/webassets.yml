@@ -7,6 +7,7 @@ main-js:
   contents:
     - vendor/ckeditor/adapters/jquery.js
     - vendor/datepicker/js/bootstrap-datepicker.js
+    - vendor/ckeditor/lang/en.js
     - js/ckedit.js
     - js/datepicker.js
 
