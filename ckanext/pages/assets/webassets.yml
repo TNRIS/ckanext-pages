@@ -13,7 +13,7 @@ main-js:
 
 main-css:
   output: ckanext-pages/%(version)s_main.css
-  filters: cssrewrite
+  filters: cssmin
   contents:
     - vendor/datepicker/css/datepicker.css
     - css/ckedit.css
@@ -30,20 +30,20 @@ medium-js:
 
 medium-css:
   output: ckanext-pages/%(version)s_medium.css
-  filters: cssrewrite
+  filters: cssmin
   contents:
     - vendor/medium/medium-editor.css
     - css/bootstrap.css
 
 blog-css:
   output: ckanext-pages/%(version)s_blog.css
-  filters: cssrewrite
+  filters: cssmin
   contents:
     - css/blog.css
 
 index-css:
   output: ckanext-pages/%(version)s_pages.css
-  filters: cssrewrite
+  filters: cssmin
   contents:
     - css/pages.css
 
